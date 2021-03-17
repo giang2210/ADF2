@@ -23,7 +23,6 @@ public class Controller implements  Initializable {
     public TableColumn<Student, String> tenSV;
     public TableColumn<Student, String> tuoiSV;
     public TableColumn<Student, String> diemSV;
-    private TableColumn<Student, Button> update;
     ObservableList<Student> ds = FXCollections.observableArrayList();
     static boolean sortType = false;
 

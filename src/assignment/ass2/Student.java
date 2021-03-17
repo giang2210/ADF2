@@ -4,9 +4,11 @@ import java.awt.*;
 import java.awt.peer.ButtonPeer;
 
 public class Student {
-    String name,age,mark;
+    String name;
+    Integer age;
+    Integer mark;
 
-    public Student(String name, String age, String mark) {
+    public Student(String name, Integer age, Integer mark) {
         this.name = name;
         this.age = age;
         this.mark = mark;
@@ -20,19 +22,19 @@ public class Student {
         this.name = name;
     }
 
-    public String getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
-    public String getMark() {
+    public Integer getMark() {
         return mark;
     }
 
-    public void setMark(String mark) {
+    public void setMark(Integer mark) {
         this.mark = mark;
     }
 }

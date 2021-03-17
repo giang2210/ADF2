@@ -15,7 +15,7 @@
         <TextField fx:id="txtName" layoutX="54.0" layoutY="94.0" prefHeight="27.0" prefWidth="181.0" promptText="Ten SV" />
         <TextField fx:id="txtAge" layoutX="256.0" layoutY="94.0" prefHeight="27.0" prefWidth="83.0" promptText="Tuoi" />
         <TextField fx:id="txtMark" layoutX="358.0" layoutY="94.0" prefHeight="27.0" prefWidth="83.0" promptText="Diem thi" />
-        <Button onAction="#input" layoutX="464.0" layoutY="94.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="77.0" text="Submit" />
+        <Button onAction="#input" layoutX="464.0" layoutY="94.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="77.0" text="Add" />
         <TableView fx:id="txtRs" layoutX="53.0" layoutY="182.0" prefHeight="368.0" prefWidth="490.0">
             <columns>
                 <TableColumn fx:id="tenSV" prefWidth="277.0" text="Ten SV" />

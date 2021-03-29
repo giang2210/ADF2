@@ -1,14 +1,11 @@
-package assignment.ass2;
+package demo.assginment3.model;
 
-import java.awt.*;
-import java.awt.peer.ButtonPeer;
+public class SinhVien {
+    public  String name;
+    public Integer age;
+    public Integer mark;
 
-public class Student {
-    String name;
-    Integer age;
-    Integer mark;
-
-    public Student(String name, Integer age, Integer mark) {
+    public SinhVien(String name, Integer age, Integer mark) {
         this.name = name;
         this.age = age;
         this.mark = mark;

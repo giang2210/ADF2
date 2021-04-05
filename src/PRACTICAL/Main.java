@@ -57,7 +57,7 @@ public class Main {
         String name = scanner.next();
         Contact contact = addressBook.findByName(name);
         System.out.println(String.format("%-20s%s", "Name", "Phone Number"));
-        System.out.println("--------------------|-------------------");
+        System.out.println("-------------------|------------------");
         System.out.println(String.format("%-20s%s", contact.getName() , contact.getPhone()));
         System.out.println("------SUCCESS------");
     }
@@ -69,7 +69,7 @@ public class Main {
         String phone = scanner.next();
 
         addressBook.addContact(name, phone);
-        System.out.println("------SUCCESS------");
+        System.out.println("-----SUCCESS-----");
     }
 
 }

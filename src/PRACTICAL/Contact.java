@@ -1,5 +1,5 @@
 package PRACTICAL;
-import java.util.*;
+
 public class Contact {
     private String name;
     private String phone;
